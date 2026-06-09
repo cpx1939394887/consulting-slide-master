@@ -102,6 +102,21 @@ Each slide should have:
 - Asset disposal and restructuring proposals
 - Monthly or quarterly executive business reviews
 
+## Sanitized Example
+
+The repository includes a fictional turnaround case under [`examples/turnaround-plan`](examples/turnaround-plan/). It demonstrates how the skill organizes a business recovery deck without exposing any private company information.
+
+Example artifacts:
+
+- [`sample-evidence-library.md`](examples/turnaround-plan/sample-evidence-library.md)
+- [`sample-page-plan.md`](examples/turnaround-plan/sample-page-plan.md)
+- [`sample-quality-report.md`](examples/turnaround-plan/sample-quality-report.md)
+- [`sample-contact-sheet.png`](examples/turnaround-plan/sample-contact-sheet.png)
+
+Preview:
+
+![Sanitized turnaround contact sheet](examples/turnaround-plan/sample-contact-sheet.png)
+
 ## Output Contract
 
 A complete run should produce:
@@ -192,4 +207,3 @@ It is for users who need:
 Tagline:
 
 > From messy materials to boardroom-ready decisions.
-
