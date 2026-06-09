@@ -2,7 +2,9 @@
 
 Consulting Slide Master treats professional PPT templates as component sources, not fixed slide cages.
 
-The component library is designed for 10,000+ indexed PPT objects extracted from professional template decks. Public examples in this repository are sanitized and illustrative; private or licensed template assets should not be committed unless distribution rights are clear.
+The component library is designed for 10,000+ indexed PPT objects extracted from professional template decks. A sanitized local indexing run currently contains 19 templates, 642 slides, 36,935 objects, and 8,975 reusable candidates. Public examples in this repository are sanitized and illustrative; private or licensed template assets should not be committed unless distribution rights are clear.
+
+See `component-library-stats.json` for sanitized scale statistics.
 
 ## Component Roles
 
@@ -53,4 +55,3 @@ The agent should not choose a full slide first. It should:
 4. Recompose a page-specific layout.
 5. Apply the consulting visual system.
 6. Check contact-sheet variety.
-

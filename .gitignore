@@ -8,6 +8,7 @@ outputs/
 private/
 local/
 *.pptx
+!examples/turnaround-plan/demo-deck/fictional-turnaround-demo.pptx
 *.ppt
 *.key
 *.pdf
@@ -15,4 +16,3 @@ local/
 *.xls
 *.docx
 *.doc
-

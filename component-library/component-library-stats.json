@@ -1,0 +1,37 @@
+{
+  "version": "0.1.0",
+  "description": "Sanitized component-library scale statistics from a local indexing run. No private templates, slide images, source file names, company names, or proprietary objects are included.",
+  "indexed_template_count": 19,
+  "indexed_slide_count": 642,
+  "indexed_object_count": 36935,
+  "top_level_object_count": 23322,
+  "group_child_object_count": 13613,
+  "reusable_candidate_count": 8975,
+  "public_release_policy": {
+    "raw_template_assets_included": false,
+    "private_slide_images_included": false,
+    "licensed_template_objects_included": false,
+    "sanitized_schema_and_sample_only": true
+  },
+  "role_examples": [
+    "title_header",
+    "kpi_strip",
+    "metric_card",
+    "comparison_table",
+    "ledger_table",
+    "timeline",
+    "roadmap",
+    "decision_matrix",
+    "issue_tree",
+    "causal_chain",
+    "bridge_chart",
+    "chart_frame",
+    "dashboard_strip",
+    "callout",
+    "source_note",
+    "process_flow",
+    "hierarchy_layer",
+    "map_region"
+  ]
+}
+

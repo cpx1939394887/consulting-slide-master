@@ -39,6 +39,23 @@ Consulting Slide Master is built for the opposite workflow:
 | QA | Export only | Manual check | Rendered contact-sheet review |
 | Best use | Quick drafts | Visual reuse | Boardroom-ready business decks |
 
+## Component Library Scale
+
+This skill is designed around a decomposed PPT component library rather than fixed slide templates.
+
+Sanitized local indexing statistics:
+
+| Indexed asset | Count |
+|---|---:|
+| Professional template decks | 19 |
+| Indexed slides | 642 |
+| Indexed PPT objects | 36,935 |
+| Top-level objects | 23,322 |
+| Group-child objects | 13,613 |
+| Reusable component candidates | 8,975 |
+
+The public repository includes schemas, taxonomy, and sanitized samples only. It does not include private, licensed, or client-specific template assets.
+
 ## Core Philosophy
 
 ### Consulting Thinking First
@@ -111,11 +128,18 @@ Example artifacts:
 - [`sample-evidence-library.md`](examples/turnaround-plan/sample-evidence-library.md)
 - [`sample-page-plan.md`](examples/turnaround-plan/sample-page-plan.md)
 - [`sample-quality-report.md`](examples/turnaround-plan/sample-quality-report.md)
-- [`sample-contact-sheet.png`](examples/turnaround-plan/sample-contact-sheet.png)
+- [`demo-deck/fictional-turnaround-demo.pptx`](examples/turnaround-plan/demo-deck/fictional-turnaround-demo.pptx)
+- [`demo-deck/contact_sheet.jpg`](examples/turnaround-plan/demo-deck/contact_sheet.jpg)
+- [`sample-contact-sheet.png`](examples/turnaround-plan/sample-contact-sheet.png), copied from the rendered demo contact sheet for README preview
+- [`before-after-comparison.png`](examples/turnaround-plan/before-after-comparison.png)
 
 Preview:
 
 ![Sanitized turnaround contact sheet](examples/turnaround-plan/sample-contact-sheet.png)
+
+Before vs after:
+
+![Before and after comparison](examples/turnaround-plan/before-after-comparison.png)
 
 ## Output Contract
 

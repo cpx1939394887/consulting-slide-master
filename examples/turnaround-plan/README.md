@@ -29,7 +29,10 @@ Synthetic sources:
 | `sample-evidence-library.md` | Sanitized evidence library |
 | `sample-page-plan.md` | 12-slide page plan |
 | `sample-quality-report.md` | Contact-sheet QA style review |
-| `sample-contact-sheet.png` | Synthetic thumbnail preview |
+| `demo-deck/fictional-turnaround-demo.pptx` | Editable synthetic 8-slide demo deck |
+| `demo-deck/contact_sheet.jpg` | Contact sheet rendered from the demo PPTX |
+| `sample-contact-sheet.png` | README preview copied from the rendered contact sheet |
+| `before-after-comparison.png` | Difference between generic template-first slides and consulting proof pages |
 
 ## What This Example Demonstrates
 
@@ -39,4 +42,12 @@ Synthetic sources:
 - High-density executive layout rhythm
 - Content-driven component recomposition
 - Contact-sheet QA
+
+## Demo Preview
+
+![Rendered contact sheet](sample-contact-sheet.png)
+
+## Before vs After
+
+![Before and after comparison](before-after-comparison.png)
 
