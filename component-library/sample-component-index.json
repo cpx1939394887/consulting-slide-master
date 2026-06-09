@@ -1,0 +1,105 @@
+{
+  "version": "0.1.0",
+  "description": "Sanitized sample component index. Real deployments may contain 10,000+ indexed PPT components from licensed or owned templates.",
+  "component_count": 8,
+  "template_count": 3,
+  "components": [
+    {
+      "id": "sample_title_header_001",
+      "role": "title_header",
+      "template_id": "sanitized_consulting_template_a",
+      "slide_no": 4,
+      "shape_type": "group",
+      "bbox": { "x": 0, "y": 0, "w": 960, "h": 80 },
+      "density": "medium",
+      "palette": ["#05254D", "#00AAD2", "#677482"],
+      "use_cases": ["executive_report", "chapter_body", "data_heavy_slide"],
+      "notes": "Header with kicker, conclusion title, and page number."
+    },
+    {
+      "id": "sample_kpi_strip_001",
+      "role": "kpi_strip",
+      "template_id": "sanitized_consulting_template_a",
+      "slide_no": 8,
+      "shape_type": "group",
+      "bbox": { "x": 40, "y": 96, "w": 840, "h": 76 },
+      "density": "high",
+      "palette": ["#005CB9", "#B8242F", "#1C845F"],
+      "use_cases": ["executive_summary", "financial_overview", "operating_review"],
+      "notes": "Four to five KPI blocks with label, value, and short note."
+    },
+    {
+      "id": "sample_decision_matrix_001",
+      "role": "decision_matrix",
+      "template_id": "sanitized_strategy_template_b",
+      "slide_no": 12,
+      "shape_type": "group",
+      "bbox": { "x": 90, "y": 115, "w": 610, "h": 315 },
+      "density": "medium",
+      "palette": ["#05254D", "#CAD3DD", "#E58B23"],
+      "use_cases": ["option_comparison", "customer_segmentation", "policy_boundary"],
+      "notes": "2x2 matrix with quadrant labels and action guidance."
+    },
+    {
+      "id": "sample_ledger_table_001",
+      "role": "ledger_table",
+      "template_id": "sanitized_operations_template_c",
+      "slide_no": 16,
+      "shape_type": "table",
+      "bbox": { "x": 55, "y": 105, "w": 850, "h": 320 },
+      "density": "high",
+      "palette": ["#05254D", "#F6F8FA", "#CAD3DD"],
+      "use_cases": ["investment_ledger", "license_status", "action_tracking"],
+      "notes": "Dense table suitable for status and accountability."
+    },
+    {
+      "id": "sample_timeline_001",
+      "role": "timeline",
+      "template_id": "sanitized_strategy_template_b",
+      "slide_no": 7,
+      "shape_type": "group",
+      "bbox": { "x": 70, "y": 120, "w": 800, "h": 170 },
+      "density": "medium",
+      "palette": ["#05254D", "#00AAD2", "#E58B23"],
+      "use_cases": ["project_history", "implementation_sequence", "market_cycle"],
+      "notes": "Horizontal timeline with alternating milestone labels."
+    },
+    {
+      "id": "sample_bridge_chart_001",
+      "role": "bridge_chart",
+      "template_id": "sanitized_finance_template_d",
+      "slide_no": 11,
+      "shape_type": "group",
+      "bbox": { "x": 75, "y": 110, "w": 560, "h": 280 },
+      "density": "high",
+      "palette": ["#005CB9", "#B8242F", "#1C845F"],
+      "use_cases": ["profit_bridge", "revenue_variance", "cost_variance"],
+      "notes": "Bridge-like visual for variance explanation."
+    },
+    {
+      "id": "sample_roadmap_001",
+      "role": "roadmap",
+      "template_id": "sanitized_operations_template_c",
+      "slide_no": 23,
+      "shape_type": "group",
+      "bbox": { "x": 60, "y": 130, "w": 830, "h": 260 },
+      "density": "medium",
+      "palette": ["#05254D", "#005CB9", "#1C845F"],
+      "use_cases": ["future_plan", "turnaround_program", "execution_roadmap"],
+      "notes": "Three-stage roadmap with target, action, and metric rows."
+    },
+    {
+      "id": "sample_callout_001",
+      "role": "callout",
+      "template_id": "sanitized_consulting_template_a",
+      "slide_no": 5,
+      "shape_type": "shape",
+      "bbox": { "x": 670, "y": 130, "w": 210, "h": 170 },
+      "density": "medium",
+      "palette": ["#FFF5E7", "#E58B23"],
+      "use_cases": ["risk_note", "scope_warning", "decision_prompt"],
+      "notes": "Compact interpretation or caveat block."
+    }
+  ]
+}
+

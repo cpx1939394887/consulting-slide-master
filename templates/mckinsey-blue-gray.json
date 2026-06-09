@@ -1,0 +1,18 @@
+{
+  "name": "mckinsey-blue-gray",
+  "colors": {
+    "navy": "#05254D",
+    "blue": "#005CB9",
+    "cyan": "#00AAD2",
+    "sky": "#E0EFF8",
+    "pale": "#F6F8FA",
+    "dark": "#262D37",
+    "mid_gray": "#677482",
+    "line_gray": "#CAD3DD",
+    "risk_red": "#B8242F",
+    "fix_green": "#1C845F",
+    "amber": "#E58B23",
+    "white": "#FFFFFF"
+  }
+}
+

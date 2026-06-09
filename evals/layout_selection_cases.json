@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "page_intent": "Explain why actual revenue missed plan",
+      "recommended_patterns": ["variance_bridge", "plan_actual_table"],
+      "avoid": ["three_generic_cards"]
+    },
+    {
+      "page_intent": "Show whether to continue or stop a project",
+      "recommended_patterns": ["decision_matrix", "option_comparison_table"],
+      "avoid": ["decorative_icon_grid"]
+    },
+    {
+      "page_intent": "Track licenses, approvals, and pending actions",
+      "recommended_patterns": ["ledger_table", "status_table"],
+      "avoid": ["paragraph_list"]
+    },
+    {
+      "page_intent": "Show a three-year recovery plan",
+      "recommended_patterns": ["roadmap_with_actions", "timeline"],
+      "avoid": ["static_text_box"]
+    }
+  ]
+}
+

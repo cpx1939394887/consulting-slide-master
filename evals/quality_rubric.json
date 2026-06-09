@@ -1,0 +1,40 @@
+{
+  "criteria": [
+    {
+      "name": "claim_quality",
+      "description": "Slide titles are conclusion sentences, not generic topic labels.",
+      "weight": 20
+    },
+    {
+      "name": "proof_alignment",
+      "description": "Each slide has one primary proof object that supports the title.",
+      "weight": 20
+    },
+    {
+      "name": "layout_variety",
+      "description": "The contact sheet shows varied page rhythms and avoids mechanical template repetition.",
+      "weight": 15
+    },
+    {
+      "name": "density_readability",
+      "description": "Pages are dense but readable, with clear hierarchy and no large empty areas.",
+      "weight": 15
+    },
+    {
+      "name": "source_discipline",
+      "description": "Numbers carry source, unit, time, scope, and caveats where needed.",
+      "weight": 15
+    },
+    {
+      "name": "visual_system",
+      "description": "Palette and emphasis colors are consistent with consulting-style semantics.",
+      "weight": 10
+    },
+    {
+      "name": "technical_quality",
+      "description": "No garbled text, overlap, unreadable labels, or missing previews.",
+      "weight": 5
+    }
+  ]
+}
+

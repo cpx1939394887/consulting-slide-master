@@ -1,0 +1,22 @@
+{
+  "name": "consulting-slide-master",
+  "version": "0.1.0",
+  "status": "active",
+  "maturity_tier": "production",
+  "lifecycle_stage": "active",
+  "category": "executive-productivity",
+  "complexity_tier": "complex",
+  "target_platforms": ["openai", "claude", "generic"],
+  "primary_outputs": ["pptx", "preview_images", "contact_sheet", "evidence_library", "quality_report"],
+  "core_capabilities": [
+    "consulting_reasoning",
+    "evidence_to_claim_workflow",
+    "content_driven_layout_recomposition",
+    "decomposed_ppt_component_library",
+    "consulting_visual_system",
+    "contact_sheet_qa"
+  ],
+  "component_library_scale": "designed_for_10000_plus_components",
+  "private_data_policy": "No company-private source data, file paths, client names, or case-specific figures are included in this public skill package."
+}
+

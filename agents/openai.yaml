@@ -1,0 +1,3 @@
+display_name: Consulting Slide Master
+short_description: Create consulting-grade, high-density executive PowerPoint decks from complex business materials.
+default_prompt: Turn these materials into a high-density consulting-style executive deck. Build an evidence library, create a claim spine, select page-specific proof layouts, and render a contact sheet for QA before delivery.

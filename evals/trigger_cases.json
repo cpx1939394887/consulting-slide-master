@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "input": "Create a board-ready operating review deck from these financial and sales files.",
+      "should_trigger": true,
+      "reason": "Executive business deck from complex source materials."
+    },
+    {
+      "input": "Make a high-density consulting style post-investment review PowerPoint.",
+      "should_trigger": true,
+      "reason": "Consulting-style investment review deck."
+    },
+    {
+      "input": "Beautify this one slide with a nicer background.",
+      "should_trigger": false,
+      "reason": "Decorative slide edit, not full consulting deck craft."
+    },
+    {
+      "input": "Generate a generic birthday party presentation.",
+      "should_trigger": false,
+      "reason": "Not an executive business deck."
+    }
+  ]
+}
+

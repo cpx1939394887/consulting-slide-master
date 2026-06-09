@@ -1,0 +1,25 @@
+{
+  "patterns": [
+    {
+      "id": "executive_dashboard",
+      "intent": "establish status",
+      "components": ["title_header", "kpi_strip", "comparison_table", "callout"]
+    },
+    {
+      "id": "variance_bridge",
+      "intent": "explain gap",
+      "components": ["title_header", "bridge_chart", "metric_card", "source_note"]
+    },
+    {
+      "id": "decision_matrix",
+      "intent": "defend choice",
+      "components": ["title_header", "decision_matrix", "comparison_table", "callout"]
+    },
+    {
+      "id": "roadmap_with_actions",
+      "intent": "sequence future actions",
+      "components": ["title_header", "roadmap", "ledger_table", "source_note"]
+    }
+  ]
+}
+

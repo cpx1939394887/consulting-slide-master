@@ -1,0 +1,15 @@
+{
+  "name": "bcg-deep-blue",
+  "colors": {
+    "deep_blue": "#0B1F3A",
+    "blue": "#1D4E89",
+    "cyan": "#00A6D6",
+    "light_gray": "#F3F5F7",
+    "dark_gray": "#333333",
+    "risk_red": "#C00000",
+    "improvement_green": "#2E7D32",
+    "emphasis_orange": "#F28C28",
+    "white": "#FFFFFF"
+  }
+}
+

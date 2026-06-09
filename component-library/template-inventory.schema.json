@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Template Inventory",
+  "type": "object",
+  "required": ["version", "templates"],
+  "properties": {
+    "version": { "type": "string" },
+    "templates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["template_id", "name", "slide_count", "license_status"],
+        "properties": {
+          "template_id": { "type": "string" },
+          "name": { "type": "string" },
+          "slide_count": { "type": "integer" },
+          "source": { "type": "string" },
+          "license_status": { "enum": ["public", "owned", "internal_only", "unknown"] },
+          "public_distribution_allowed": { "type": "boolean" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+

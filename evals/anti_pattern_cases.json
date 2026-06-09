@@ -1,0 +1,25 @@
+{
+  "anti_patterns": [
+    {
+      "name": "repeated_three_card_layout",
+      "signal": "More than three adjacent slides use the same three-card composition.",
+      "fix": "Change proof objects: chart+table, matrix+rules, timeline+ledger, bridge+callout."
+    },
+    {
+      "name": "fixed_bottom_so_what_box",
+      "signal": "Every slide has the same bottom insight box regardless of content.",
+      "fix": "Place implication near the relevant proof object or remove if redundant."
+    },
+    {
+      "name": "empty_chapter_divider",
+      "signal": "Chapter slide contains only a title and large whitespace.",
+      "fix": "Add chapter claim, evidence objects, and expected output."
+    },
+    {
+      "name": "table_without_judgment",
+      "signal": "Main slide is a raw table with no highlighting or implication.",
+      "fix": "Sort, highlight, add conclusion title, and explain management meaning."
+    }
+  ]
+}
+

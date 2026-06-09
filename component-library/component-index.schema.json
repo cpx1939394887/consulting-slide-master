@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Consulting Slide Component Index",
+  "type": "object",
+  "required": ["version", "components"],
+  "properties": {
+    "version": { "type": "string" },
+    "description": { "type": "string" },
+    "component_count": { "type": "integer" },
+    "template_count": { "type": "integer" },
+    "components": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "role", "template_id", "slide_no", "bbox", "use_cases"],
+        "properties": {
+          "id": { "type": "string" },
+          "role": { "type": "string" },
+          "template_id": { "type": "string" },
+          "slide_no": { "type": "integer" },
+          "shape_type": { "type": "string" },
+          "bbox": {
+            "type": "object",
+            "required": ["x", "y", "w", "h"],
+            "properties": {
+              "x": { "type": "number" },
+              "y": { "type": "number" },
+              "w": { "type": "number" },
+              "h": { "type": "number" }
+            }
+          },
+          "density": { "enum": ["low", "medium", "high"] },
+          "palette": { "type": "array", "items": { "type": "string" } },
+          "use_cases": { "type": "array", "items": { "type": "string" } },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+
